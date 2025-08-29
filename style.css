@@ -126,7 +126,21 @@ form > div {
   background-color: rgb(20, 20, 20);
 }
 
-.form-bottom a {
+form button {
+  color: white;
+  font-weight: bold;
+  background-color: rebeccapurple;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
+form button:hover {
+  background-color: rgb(128, 83, 174);
+  cursor: pointer;
+}
+
+form a {
   text-decoration: none;
   font-weight: bold;
   color: rebeccapurple;
